@@ -5,7 +5,7 @@
 3. Ensure you have at least chromedriver installed and setup
 4. Execute tests with `pytest` 
 
-## Test Scenarios
+## Test Strategy
 
 Sleepio onboarding experience
 
@@ -103,3 +103,10 @@ Sleepio onboarding experience
       - When a step is completed (the user has responded) `action: 'completed'`
     - Verify when the entire flow is completed `/api/service_method_proxy/Answer/1/create_update_answers_bulk`
       - The request body contains a json object with all the responses. This should equal localStorage
+    - Verify for each flow step the expected responses are available and selectable
+    - Verify any input validation for the flow steps
+      - Namely first and last name, password, email
+      - But also selecting multiple check boxes and radio buttons when allowed
+
+## Improvements Scenarios
+- A progress bar across the top that allows the user to jump back and forth between steps would be nice
