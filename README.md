@@ -108,5 +108,6 @@ Sleepio onboarding experience
       - Namely first and last name, password, email
       - But also selecting multiple check boxes and radio buttons when allowed
 
-## Improvements Scenarios
+## Improvements
 - A progress bar across the top that allows the user to jump back and forth between steps would be nice
+- Probably shouldn't allow users to directly open the onboarding to a particular step without completing the previous ones
