@@ -1,7 +1,7 @@
 ## Instructions & requirements
 1. This project depends on python 3.9.x
    1. Setup a virtualenv using your preferred method
-2. Install dependencies`pip install requirements.txt`
+2. Install dependencies`pip install -r requirements.txt`
 3. Ensure you have at least chromedriver installed and setup
 4. Execute tests with `pytest` 
 
